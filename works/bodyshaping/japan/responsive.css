@@ -1,0 +1,340 @@
+@media only screen and (max-width: 968px) {
+
+	.row {
+		padding: 0 2%;
+	}
+
+	.left-nav {
+		position: fixed;
+		top: -100%;
+		left: 5%;
+		width: 90%;
+		background: rgba(240, 183, 196, .8);
+		z-index: 999;
+	}
+
+	.left-nav li {
+		width: 100%;
+		text-align: center;
+	}
+
+	.contacts-link .link-parallelogram {
+		display: block;
+	}
+
+	.logo-parallelogram {
+		height: 80px;
+	}
+
+	.logo-box {
+		left: 3%;
+	}
+
+	.logo-img {
+		width: 88%;
+		margin-top: 0;
+	}
+
+	.right-nav {
+		display: none;
+	}
+
+	.lenguage-switch {
+		width: 50%;
+		padding: 14px 0;
+	}
+
+	.burger-icon-box {
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	.frt-cl-content {
+		width: 100%;
+		text-align: center;
+	}
+
+	.frt-cl-img-box {
+		display: none;
+	}
+
+
+
+	.prices-head {
+		font-size: 35px;
+	}
+
+
+
+	.footer-contacts {
+		width: 100%;
+		text-align: center;
+	}
+
+	.social-icons {
+		width: 100%;
+		text-align: center;
+	}
+
+}
+
+
+@media only screen and (max-width: 769px) {
+
+	.left-nav-link {
+		font-size: 20px;
+		line-height: 21px;
+	}
+
+	.classes-content {
+		width: 100%;
+	}
+
+	.get-slim-bg {
+		padding: 70px 0;
+		text-align: center;
+		min-height: 100vh;
+	}
+
+	.get-slim-content {
+		width: 99%;
+		padding: 20px;
+		background: rgba(255, 255, 255, .3);
+	}
+
+	.get-slim-head {
+		font-size: 60px;
+		line-height: 85px;
+	}
+
+
+	.about-us-section {
+		text-align: center;
+	}
+
+	.about-us-content {
+		padding: 0;
+	}
+
+	.about-us-head {
+		position: absolute;
+		top: 1%;
+		padding: 3%;
+	}
+
+	.about-us-img-box {
+		width: 100%;	
+	}
+
+	.about-us-img {
+		display: block;
+		width: 170px;
+		margin: 0 auto;	
+	}
+
+	.about-us-content {
+		width: 100%;
+	}
+
+
+	.classes-section {
+		background-image: none;
+		padding: 0 0 25px;
+		text-align: center;
+	}
+
+	.classes-section-head-box {
+		margin: -55px 0 0 0;
+	}
+	.classes-section-head {
+		padding: 50px 20px 27px 10px;
+	}
+
+	.classes-content {
+		text-align: center;
+	}
+
+
+
+	.packages-description-head {
+		padding: 5% 0 0 0;
+		line-height: 60px;
+	}
+
+	.article-package {
+		width: 100%;
+		padding: 3% 0;
+	}
+
+	.article-box {
+		display: block;
+	}
+
+	.prices-list-box {
+		display: inline-block;
+		vertical-align: top;
+		width: 100%;
+		background: #f0f1f2;
+		margin: 20px 0;
+		flex: none;
+	}
+
+
+	.gift-img-box {
+		width: 100%;
+	}
+
+	.gift-img {
+		float: none;
+		margin: 0 auto;
+	}
+
+	.gift-content {
+		width: 100%;
+		text-align: center;
+		padding: 5% 0;
+	}
+
+	.gift-head {
+		font-size: 46px;
+	}
+
+	.gift-text {
+		padding: 5% 0 0 0;
+	}
+
+	.buy-now-btn {
+		margin: 10% 0 0 0;
+	}
+
+
+
+	.news-article {
+		width: 100%;
+	}
+
+	.news-image {
+		height: 350px;
+	}
+
+
+	.footer-contacts {
+		width: 100%;
+		text-align: center;
+	}
+
+	.social-icons {
+		width: 100%;
+		text-align: center;
+	}
+
+
+}
+
+@media only screen and (max-width: 480px) {
+
+	.lenguage-switch-link {
+		font-size: 12px;
+		line-height: 16px;
+		padding: 7px 4px;
+	}
+
+	.get-slim-bg {
+		min-height: 100vh;
+	}
+
+	.get-slim-head {
+		font-size: 43px;
+		line-height: 55px;
+		font-weight: normal;
+	}
+
+
+	.prices-list {
+		margin: 0;
+		padding: 20px 10px;
+	}
+
+	.reviews-slider {
+		padding: 30px 0 0 0;
+	}
+
+	.reviews-slider-head {
+		padding: 0 0 17px 0;
+	}
+	
+	.for-slider {
+		min-height: 405px;
+	}
+
+	.customer-review {
+		font-size: 14px;
+		line-height: 20px;
+	}
+
+
+	.contacts-preview {
+		font-size: 15px;
+	}
+
+	.customer-img-box {
+		margin: 10px 0 0 0;
+	}
+
+	.classes-section-head,
+	.frt-cl-head,
+	.pac-head,
+	.about-us-head,
+	.packages-description-head,
+	.gift-head,
+	.questions-head,
+	.reviews-slider-head {
+		font-size: 36px;
+		line-height: 46px;
+	}
+
+	.news-article {
+		padding: 30px 0px 40px 0px;
+	}
+
+	.form-box {
+		-webkit-transform: none;
+		-moz-transform: none;
+		-o-transform: none;
+		transform: none;
+	}
+
+	.inpt-name,
+	.inpt-email,
+	.inpt-message {
+		-webkit-transform: none;
+		-moz-transform: none;
+		-o-transform: none;
+		transform: none;
+	}
+
+	.glyphicon-user,
+	.form-box .glyphicon-envelope,
+	.glyphicon-edit {
+		-webkit-transform: none;
+		-moz-transform: none;
+		-o-transform: none;
+		transform: none;
+	}
+
+	.footer-contact {
+		padding: 20px 5px;
+	}
+
+	.glyphicon-earphone,
+	.footer-contacts .glyphicon-envelope {
+		margin: 0 10px 0 0;
+	}
+
+	.tel-num, .email-address {
+		font-size: 16px;
+	}
+
+
+
+}

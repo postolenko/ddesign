@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+
+<html lang="en" >
+
+<head>
+
+	<meta charset="utf-8">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" >
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<meta name="description" content="">
+	
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<link rel="stylesheet" type="text/css" href="responsive.css">
+	<link rel="stylesheet" type="text/css" href="swiper/swiper.css">
+
+	<script type="text/javascript" src="vendors/js/jquery.js"></script>
+
+	<script type="text/javascript" src="swiper/swiper.js"></script>
+
+	<link rel="icon" type="image/png" href="favicon/logo-small.png" sizes="16x16">
+	
+	<title>PartsQ</title>
+
+</head>
+
+<body>
+
+<div class="wrapper">
+
+	<!-- Header -->
+	<header>
+
+		<div class="header-bg">
+
+			<div class="row">
+
+				<div class="head-right-col">
+
+					<div class="respmenubtn">
+					
+						<span></span>
+						<span></span>
+						<span></span>
+						
+					</div>
+
+				</div>
+
+				<div class="logo-head">
+
+					<a href=""><img src="img/logo_head.svg" alt="logo"/></a>
+
+				</div>
+
+				<div class="head-left-col">
+
+					<a class="search-btn" href="#"><img src="img/search_icon_h.svg" alt="logo"/></a>
+
+					<a class="basket-btn" href="#"><img src="img/cart_icon.svg" alt="logo"/></a>
+
+				</div>
+
+			</div>
+
+		</div>
+
+		<div class="scroll-to-top glyphicon"></div>
+
+	</header>
+
+	<!-- /Header -->		
+
+		<!-- Content -->
+			<div class="content">
+
+				<div class="confpassemail">
+
+					<div class="row">
+
+						<form>						
+
+							<h1>Forgot Your Password ?</h1>
+						
+							<h3 class="detailh3">Your E-Mail Address</h3>
+
+							<div class="formcardinput">
+
+								<label class="important">E-Mail Address</label>
+								<input type="text" placeholder="E-Mail Address" />
+
+							</div>
+
+							<button type="button" class="nextconfpass-btn">Continue</button>
+
+							<button type="button" class="backconfpass-btn">Back</button>
+
+						</form>
+
+					</div>
+
+				</div>
+
+			</div>
+		<!-- /Content -->
+
+
+		<!-- Footer -->
+
+			<footer>
+
+		
+	
+			</footer>
+
+		<!-- /Footer -->
+
+
+	<script src="js/scripts.js"></script>
+	<script src="category/categories.js"></script>
+
+	<script src="main_navigation/main_navigation.js"></script>
+
+	<script src="accordeon_cash/accordeon_cash.js"></script>
+
+	<script src="cashcalc/cashcalc.js"></script>
+
+<script>
+		
+		setTimeout(function() {
+
+			var sl = new Swiper(".swipper-slider-main", {
+
+	    		pagination: ".swiper-pag-main",
+		        paginationClickable: true
+
+	    	});
+
+			var sl1 = new Swiper(".slider-sw", {
+
+	    		pagination: ".swiper-pag-1",
+		        paginationClickable: true
+
+	    	});
+
+		    var sl2 = new Swiper(".swiper-container", {
+
+	    		// pagination: ".swiper-pag-2",
+		        // paginationClickable: true,
+		        nextButton: ".swiper-button-next",
+		        prevButton: ".swiper-button-prev",
+		        spaceBetween: 0
+
+	    	});
+
+	    	var sl3 = new Swiper(".swiper-container-3", {
+
+	    		// pagination: ".swiper-pag-3",
+		     	// paginationClickable: true,
+		        nextButton: ".swiper-button-next",
+		        prevButton: ".swiper-button-prev",
+		        spaceBetween: 0
+
+	    	});
+
+	    }, 3000);
+
+	</script>
+
+
+	</div>
+
+</body>
+</html>

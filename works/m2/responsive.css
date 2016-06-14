@@ -1,0 +1,675 @@
+@media only screen and (max-width: 1120px) {
+
+	.row {
+		padding: 0 1%;
+	}
+
+	.header-logo-box,
+	.header-contacts {
+	    width: 50%
+	}
+
+	.middle {
+	    display: none;
+	}
+
+	/*-- Страница товара --*/
+
+	.wood-texture-image {
+	    overflow: hidden;
+	    height: 280px;
+	}
+
+
+}
+
+@media only screen and (max-width: 940px) {
+
+	.arrow-list,
+	.brace-list {
+	    display: none;
+	}
+
+	.good-thumb {
+	    width: 33.33%;
+	}
+
+
+	/*-- Страница товара --*/
+
+	.good-slider {
+	    width: 100%;
+	}
+
+	.wood-texture-image {
+	    width: 60%;
+	    margin: 4px 0 0 0;
+	}
+
+	.miniatures {
+	    width: 40%;
+	}
+
+	.good-card .miniatures li {
+	    width: 50%;
+	    height: 70px;
+	}
+
+	.good-order {
+	    width: 80%;
+	}
+
+
+
+
+	.designer-thumb {
+    	width: 33.33%;
+	}
+
+	.thumb-image-box {
+	    height: 170px;
+	}
+
+
+}
+
+
+@media only screen and (max-width: 768px) {
+
+	.header-bg {
+	    padding: 3px 0;
+	}
+
+	.header-logo-box {
+	    width: 90%;
+	}
+
+	.header-contacts {
+	    width: 10%;
+	}
+
+	.logo-head {
+	    width: 60px;
+	    height: auto;
+	}
+
+	.logo-txt h1 {
+	    font-size: 20px;
+	    line-height: 20px;
+	}
+
+	.phone {
+		display: none;
+	}
+
+	.phone-icon {
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+
+	/* ----------- */
+
+	.screenone {
+	    padding: 30px 0;
+	}
+
+	.screenone h2 {
+	    font-size: 30px;
+	    line-height: 40px;
+	}
+
+	.screenone h2 span {
+	    font-size: 34px;
+	    line-height: 40px;
+	}
+
+	.srconesect {
+	    text-align: center;
+	    padding: 30px 0;
+	}
+
+
+	.list-box {
+		width: 45%;
+	}
+
+	.list-box li {
+	    font-size: 18px;
+	}
+
+	.submit-form-box {
+	    display: inline-block;
+	    vertical-align: middle;
+	    width: 45%;
+	}
+
+	.submit-form {
+	    width: 100%;
+	}
+
+	.submit-form form {
+	    margin: 0;
+	    padding: 0;
+	}
+
+	.form-bg {
+		display: none;
+	}
+
+
+	.nav-link {
+	    font-size: 17px;
+	    line-height: 17px;
+	    padding: 6px 20px;
+	}
+
+
+
+	.slider-price {
+	    width: 66.66%;
+	}
+
+	.chbox-box {
+	    width: 33.32%;
+	}
+
+
+
+
+	.good-thumb {
+	    width: 50%;
+	}
+
+
+
+	/*Страница товара*/
+
+	.wood-texture-image {
+	    width: 80%;
+	}
+
+	.show-prew-box img {
+	    width: 90%;
+	}
+
+	.miniatures {
+    	width: 20%;
+	}
+
+	.promoleft {
+		display: none;
+	}
+
+
+
+	.good-card .miniatures li {
+	    width: 100%;
+	    height: 65px;
+	    margin: 5px 0;
+	}
+
+	.wood-texture-image {
+	    /*height: 230px;*/
+	    height: auto;
+	}
+
+	.good-order {
+	    width: 100%;
+	}
+
+	.promoservice {
+	    width: 54%;
+	}
+
+	.buy-btn {
+	    width: 90%;
+	}
+
+	.right-btn {
+	    width: 64%;
+	}
+
+
+	.competitors-txt {
+		width: 100%;
+	}
+
+	.competitors-list {
+	    width: 100%;
+	    padding: 0; 
+	}
+
+
+
+
+	.advdescript {
+	    width: 100%;
+	}
+
+	.advantage-thumb {
+	    width: 33.33%;
+	}
+
+	.advantage-txt {
+	    padding: 0 10%;
+	}
+
+
+
+
+
+
+	.promocode-bg {
+	    padding: 20px 0;
+	}
+
+	.promocode-bg h4 {
+	    width: 100%;
+	    text-align: center;
+	}
+
+	.promocode-bg .getpromo-box {
+	    width: 100%;
+	    text-align: center;
+	}
+
+	.getpromo-box button,
+	.getpromo-box input {
+	    width: 46%;
+	    margin: 0 2%;
+	}
+
+
+
+
+	.thumbswhen-box .thumb {
+		width: 50%;
+	}
+
+	.thumb-image-box {
+	    height: 195px;
+	}
+
+	.thumbswhen-box .thumb {
+	    margin: 15px 0;
+	}
+
+
+
+
+
+	.getpromocode input,
+	.getpromocode button {
+	    width: 40%;
+	}
+
+
+
+
+
+
+
+	.getpromo-box h4 {
+	    width: 100%;
+	    text-align: center;
+	}
+
+	.getpromo {
+	    width: 95%;
+	    text-align: center;
+	    padding: 20px 0 0 0;
+	}
+
+	.getpromo-box button,
+	.getpromo-box input {
+	    margin: 2%;
+	}
+
+
+
+
+
+
+	.designer-thumb {
+    	width: 50%;
+	}
+
+	.hoverblock button {
+	    width: 80%;
+	}
+
+
+	.video {
+		width: 70%;
+	}
+
+
+	.testimonial-box {
+	    width: 50%;
+	}
+
+
+
+	.directorphoto-box .middle-col {
+	    width: 100%;
+	}
+
+	.signature-box {
+	    width: 100%;
+	    text-align: center;
+	    padding: 20px 0;
+	}
+
+	.social-links li {
+	    width: 35%;
+	}
+
+	.vk-testimonials {
+	    width: 100%;
+	}
+
+	.vk-testimonials img {
+		width: 100%;
+		height: auto;
+	}
+
+
+	.participateright {
+		display: none;
+	}
+
+
+
+	.freeservice-thumbs .thumb {
+	    width: 50%;
+	    padding: 10px 0;
+	}
+
+	.step-thumb {
+	    display: inline-block;
+	    vertical-align: top;
+	    width: 25%;
+	    text-align: center;
+	    margin: 5% 0%;
+	}
+
+
+
+
+
+	.blog {
+	    padding: 40px 0;
+	}
+
+	.blog-left-col,
+	.blog-right-col {
+	    width: 100%;
+	    margin: 30px 0 0 0;
+	}
+
+	.blog-left {
+	    border-right: none;
+	    padding: 0;
+	}
+
+	.blog-left-col h2,
+	.blog-right-col h2 {
+		padding: 0 0 20px 0;
+	}
+
+
+}
+
+
+@media only screen and (max-width: 480px) {
+
+	h2 {
+		font-size: 31px;
+		line-height: 35px
+	}
+
+	.red-boldtxt {
+		font-size: 31px;
+		line-height: 35px;
+	}
+
+	.logo-txt h2 {
+	    font-size: 9px;
+	    line-height: 15px;
+	}
+
+	.logo-txt h1 {
+	    font-size: 16px;
+	}
+
+	.screenone h2 {
+	    font-size: 25px;
+	    line-height: 30px;
+	}
+
+	.screenone h2 span {
+	    font-size: 25px;
+	    line-height: 30px;
+	}
+
+	.list-box {
+	    width: 90%;
+	}
+
+	.submit-form-box {
+	    display: inline-block;
+	    vertical-align: middle;
+	    width: 90%;
+	}
+
+
+
+
+
+	.freeservice-sect {
+	    padding: 30px 0;
+	}
+
+	.freeservice-thumbs .thumb {
+	    width: 100%;
+	    padding: 4% 0;
+	}
+
+
+
+
+
+	.about-company {
+	    padding: 40px 0;
+	}
+
+	.video {
+	    width: 100%;
+	}
+
+	.testimonial-box {
+		display: block;
+	    width: 96%;
+	    margin: 4% auto;
+	}
+
+
+	.about-company h2 {
+		padding: 0;
+	}
+
+	.getpromo-box {
+		width: 100%;
+	}
+
+	.getpromo-box .getpromo {
+		width: 100%;
+	}
+
+	.getpromo-box button,
+	.getpromo-box input {
+	    width: 96%;
+	}
+
+
+
+
+	.stepline {
+	    display: none;
+	}
+
+	.step-thumb {
+	    width: 100%;
+	}
+
+	.slider-price {
+    	width: 100%;
+	}
+
+	.chbox-box {
+	    padding: 0px 0 6px 12px;
+	    width: 50%;
+	}
+
+	.goods-thumbs {
+	    text-align: center;
+	}
+
+	.good-thumb {
+    	width: 80%;
+	}
+
+
+
+
+
+
+	.getpromo-box h4 {
+	    font-size: 24px;
+	}
+
+	.getpromo-sect {
+	    padding: 35px 0;
+	}
+
+	.getpromocode input,
+	.getpromocode button {
+	    width: 90%;
+	}
+
+
+
+
+	.director {
+		padding: 20px 0;
+	}
+
+
+
+
+
+	.designer-thumb {
+    	width: 100%;
+	}
+
+
+	/*-- Page Two --*/
+
+	.good-card .miniatures li {
+	    width: 100%;
+	    height: 50px;
+	    margin: 5px 0;
+	}
+
+	.promoservice {
+	    width: 60%;
+	}
+
+	.promocode {
+	    width: 40%;
+	}
+
+	.order-btn-box {
+	    text-align: center;
+	}
+
+	.buy-btn-box {
+		width: 100%;
+		padding: 10px;
+	}
+
+	.buy-btn {
+		width: 98%;
+		padding: 25px 0;
+		font-size: 18px;
+	}
+
+	.master-btn,
+	.sample-btn {
+		width: 98%;
+		padding: 10px;
+	}
+
+	.right-btn {
+		width: 100%;
+	}
+
+	.buy-btn-box {
+		padding: 15px 0;
+	}
+
+
+
+	.advantage-thumb {
+	    width: 90%;
+	}
+
+	.advantage-txt {
+	    padding: 0 10%;
+	}
+
+
+
+
+	.competitors-list {
+		padding: 20px 0 0 0;
+	}
+
+	.competitor-site {
+	    font-size: 15px;
+	}
+
+	.competitor-price {
+	    font-size: 21px;
+	}
+
+
+	.thumbs-sect h2 {
+	    font-size: 32px;
+	}
+
+	.thumbswhen-box .thumb {
+    	width: 98%;
+    	margin: 40px 0 30px 0;
+	}
+
+	.thumb-image-box {
+	    height: auto;
+	}
+
+
+
+	.accordeon-item h3 {
+		font-size: 25px;
+	}
+
+
+	.blog h3 {
+	    font-size: 20px;
+	    line-height: 25px;
+	}
+
+
+}
+

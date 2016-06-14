@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+
+<html lang="en" >
+
+<head>
+
+	<meta charset="utf-8">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" >
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<meta name="description" content="">
+
+	<!-- <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css"> -->
+	
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<link rel="stylesheet" type="text/css" href="responsive.css">
+
+	<link rel="stylesheet" type="text/css" href="vendors/css/jquery-ui.css">
+
+	<script type="text/javascript" src="vendors/js/jquery.js"></script>
+	<script type="text/javascript" src="vendors/js/jquery-ui.js"></script>
+
+
+<!-- 	<link rel="icon" type="image/png" href="favicon/favicon.ico" sizes="16x16"> -->
+	
+	<title>Квадратный метр</title>
+
+</head>
+
+<body>
+
+<div class="wrapper">
+
+	<!-- Header -->
+	<header>
+
+		<div class="header-bg">
+
+			<div class="row">
+
+				<a class="header-logo-box header-col" href="">
+
+					<div class="logo-head-box">
+
+						<img class="logo-head" src="img/msq_head_logo.png" alt="logo M2" />
+
+					</div>
+
+					<div class="logo-txt">
+
+						<h2>Сеть магазинов напольных покрытий</h2>
+						<h1>Квадратный метр</h1>
+						<h2>г. Нижний Новгород</h2>
+
+					</div>
+
+				</a>
+
+				<div class="header-col middle">
+
+					<h2 class="boldtxt">Интернет-Магазин</h2>
+					<h2>Напольных Покрытий</h2>
+
+				</div>
+
+
+				<div class="header-contacts header-col">
+
+					<a href="tel:+88003463015" class="phone">8 800 346 30 15</a>
+					<a href="tel:+88003463015" class="phone-icon"><i class="glyphicon glyphicon-earphone"></i></a>
+
+				</div>
+
+			</div>
+
+			<div class="glyphicon scroll-to-top"></div>
+
+		</div>
+
+	</header>
+
+	<!-- /Header -->		
+
+		<!-- Content -->
+			<div class="content">
+
+				<section>
+
+					<div class="screenone clearfix">
+					<div class="row">
+
+					<div class="scrone-head">
+						
+						<h2>Получите <span>7 бесплатных услуг</span>, которых</h2>
+						<h2>100% нет у конкурентов</h2>
+
+					</div>
+
+					<div class="srconesect">
+
+						<div class="list-box">
+
+							<img class="arrow-list" src="img/arrow_list.png" alt=" /">
+
+							<ul>
+
+								<li>Бесплатная укладка</li>
+								<li>Бесплатный замер + оценка пола</li>
+								<li>Бесплатная доставка</li>
+								<li>Бесплатный подъем</li>
+								<li>Бесплатный дизайн-проект</li>
+								<li>60 дней на возврат и обмен</li>
+								<li>Гарантия лучшей цены</li>
+
+							</ul>
+
+							<img class="brace-list" src="img/brace.png" alt="" />
+
+						</div>
+
+						<div class="submit-form-box">
+							
+							<div class="submit-form">
+
+								<form>
+									
+									<h2 class="form-head">Введите свой телефон и получите</h2>
+									<h2 class="promo-code">SMS с промо-кодом</h2>
+
+									<input type="text" placeholder="Ваш телефон">
+
+									<button type="button">Получить</button>
+
+								</form>
+
+								<img class="form-bg" src="img/scroneformbg.png" alt="">
+
+							</div>
+
+						</div>
+
+					</div>
+
+						<div class="to-shop-link">
+
+							<div class="to-shop">
+
+								<p>Перейти в Интернет магазин</p>
+
+								<a href="#catalog" class="to-shop-arrows">
+
+									<div class="down-arrow">
+										<i class="glyphicon glyphicon-menu-down"></i>
+									</div>
+
+									<div class="down-arrow">
+										<i class="glyphicon glyphicon-menu-down"></i>
+									</div>
+
+								</a>
+
+							</div>
+
+						</div>
+
+
+					</div>
+
+					</div>
+
+				</section>
+
+				<section>
+
+					<div class="screen-two">
+				<!-- Навигационное меню -->
+
+					<div class="main-navigation">
+
+						<ul class="row" id="navigation">
+
+							<li class="nav-item"><a class="nav-link">Все</a></li>
+							<li class="nav-item"><a class="nav-link">Пробка</a></li>
+							<li class="nav-item"><a class="nav-link">Ламинат</a></li>
+							<li class="nav-item"><a class="nav-link">Паркет</a></li>
+							<li class="nav-item"><a class="nav-link">Вишня</a></li>
+							<li class="nav-item"><a class="nav-link">Аксесуары</a></li>
+							<li class="nav-item"><a class="nav-link">Наши магазины</a></li>
+
+						</ul>
+
+					</div>
+
+						<div class="row">
+
+							<div class="chose-criteries">
+
+								<div class="hovercriteries">
+
+									<div class="criteries">
+
+										<div class="slider-price">
+
+										<script>
+										
+										  $(function() {
+
+										    $( "#slider-range-min" ).slider({
+										      range: "min",
+										      value: 37,
+										      min: 1,
+										      max: 3600,
+										      slide: function( event, ui ) {
+										        $( "#amount" ).val( ui.value );
+										      }
+										    });
+
+										    $( "#amount" ).val( $( "#slider-range-min" ).slider( "value" ) );
+
+										  });
+										  
+										  </script>
+
+											<h3 class="slider-range-head">Цена</h3>
+
+											<div class="slider-range">
+
+												<div class="select-range-box">
+
+													<div class="select-range" id="slider-range-min">
+														
+													</div>
+
+												</div>
+
+												<div class="slider-range-val-box">
+													<div class="left-triangle"></div>
+													<input class="slider-range-val" type="text" id="amount" readonly />
+
+												</div>
+
+											</div>
+
+										</div>
+
+										<div class="chbox-box">
+
+											<input type="checkbox" id="ch1"/>
+											<label for="ch1">Фаска</label>
+
+										</div>
+
+										<div class="chbox-box">
+
+											<input type="checkbox" id="ch2"/>
+											<label for="ch2">Светлый</label>
+
+										</div>
+
+										<div class="chbox-box">
+
+											<input type="checkbox" id="ch3"/>
+											<label for="ch3">Темный</label>
+
+										</div>
+
+										<div class="chbox-box">
+
+											<input type="checkbox" id="ch4"/>
+											<label for="ch4">Светлый</label>
+
+										</div>
+
+										<div class="chbox-box">
+
+											<input type="checkbox" id="ch5"/>
+											<label for="ch5">Темный</label>
+
+										</div>
+
+										<div class="chbox-box">
+
+											<input type="checkbox" id="ch6"/>
+											<label for="ch6">Светлый</label>
+
+										</div>
+
+										<div class="chbox-box">
+
+											<input type="checkbox" id="ch7"/>
+											<label for="ch7">Темный</label>
+
+										</div>
+
+										<div class="chbox-box">
+
+											<input type="checkbox" id="ch8"/>
+											<label for="ch8">Светлый</label>
+
+										</div>
+
+										<div class="chbox-box">
+
+											<input type="checkbox" id="ch9"/>
+											<label for="ch9">Темный</label>
+
+										</div>
+
+										<div class="chbox-box">
+
+											<input type="checkbox" id="ch10"/>
+											<label for="ch10">Светлый</label>
+
+										</div>
+
+										<div class="chbox-box">
+
+											<input type="checkbox" id="ch11"/>
+											<label for="ch11">Темный</label>
+
+										</div>
+
+										<div class="chbox-box">
+
+											<input type="checkbox" id="ch12"/>
+											<label for="ch12">Светлый</label>
+
+										</div>
+
+										<div class="chbox-box">
+
+											<input type="checkbox" id="ch13"/>
+											<label for="ch13">Темный</label>
+
+										</div>
+
+									</div>
+
+								</div>
+
+
+								<div class="show-more">
+
+									<div class="show-more-link">
+
+										<i class="glyphicon glyphicon-menu-down"></i>
+										<span>Больше фильтров</span>
+										<i class="glyphicon glyphicon-menu-down"></i>
+
+									</div>
+
+								</div>
+							
+
+							</div>
+
+						</div>
+
+					</div>
+
+				<!-- /  Навигационное меню -->
+
+				</section>
+
+
+				<section id="catalog">
+					
+					<div class="clubpromoright">
+
+						<a href="#" class="club">Закрытый клуб</a>
+						<a href="#" class="promocode">Промо-код</a>
+
+					</div>
+
+					<div class="screenthree goods">
+
+						<div class="row">
+
+							<div class="goods-thumbs">
+
+								
+								<div class="good-thumb">
+
+									<div class="good-texture">
+									
+										<img class="texture-photo" src="goods_img/good1.jpg"  alt="Дуб светлый" />
+
+										<div class="texture-links clearfix">
+
+											<a href="#" class="basket">В корзину</a>
+											<a href="#" class="order">Заказать образец</a>
+
+										</div>
+
+									</div>
+
+									<h3 class="texture-name-en" >Floor Wood</h3>
+									<h3 class="texture-name-ru" >Дуб светлый</h3>
+									<p class="price">9999<span class="price-valute">руб</span></p>
+
+								</div>
+
+
+								<div class="good-thumb">
+
+									<div class="good-texture">
+									
+										<img class="texture-photo" src="goods_img/good2.jpg"  alt="Дуб светлый" />
+
+										<div class="texture-links clearfix">
+
+											<a href="#" class="basket">В корзину</a>
+											<a href="#" class="order">Заказать образец</a>
+
+										</div>
+
+									</div>
+
+									<h3 class="texture-name-en" >Floor Wood</h3>
+									<h3 class="texture-name-ru" >Дуб светлый</h3>
+									<p class="price">9999<span class="price-valute">руб</span></p>
+
+								</div>
+
+
+								<div class="good-thumb">
+
+									<div class="good-texture">
+									
+										<img class="texture-photo" src="goods_img/good3.jpg"  alt="Дуб светлый" />
+
+										<div class="texture-links clearfix">
+
+											<a href="#" class="basket">В корзину</a>
+											<a href="#" class="order">Заказать образец</a>
+
+										</div>
+
+									</div>
+
+									<h3 class="texture-name-en" >Floor Wood</h3>
+									<h3 class="texture-name-ru" >Дуб светлый</h3>
+									<p class="price">9999<span class="price-valute">руб</span></p>
+
+								</div>
+
+
+								<div class="good-thumb">
+
+									<div class="good-texture">
+									
+										<img class="texture-photo" src="goods_img/good4.jpg"  alt="Дуб светлый" />
+
+										<div class="texture-links clearfix">
+
+											<a href="#" class="basket">В корзину</a>
+											<a href="#" class="order">Заказать образец</a>
+
+										</div>
+
+									</div>
+
+									<h3 class="texture-name-en" >Floor Wood</h3>
+									<h3 class="texture-name-ru" >Дуб светлый</h3>
+									<p class="price">9999<span class="price-valute">руб</span></p>
+
+								</div>
+
+
+								<div class="good-thumb">
+
+									<div class="good-texture">
+									
+										<img class="texture-photo" src="goods_img/good5.jpg"  alt="Дуб светлый" />
+
+										<div class="texture-links clearfix">
+
+											<a href="#" class="basket">В корзину</a>
+											<a href="#" class="order">Заказать образец</a>
+
+										</div>
+
+									</div>
+
+									<h3 class="texture-name-en" >Floor Wood</h3>
+									<h3 class="texture-name-ru" >Дуб светлый</h3>
+									<p class="price">9999<span class="price-valute">руб</span></p>
+
+								</div>
+
+
+								<div class="good-thumb">
+
+									<div class="good-texture">
+									
+										<img class="texture-photo" src="goods_img/good6.jpg"  alt="Дуб светлый" />
+
+										<div class="texture-links clearfix">
+
+											<a href="#" class="basket">В корзину</a>
+											<a href="#" class="order">Заказать образец</a>
+
+										</div>
+
+									</div>
+
+									<h3 class="texture-name-en" >Floor Wood</h3>
+									<h3 class="texture-name-ru" >Дуб светлый</h3>
+									<p class="price">9999<span class="price-valute">руб</span></p>
+
+								</div>
+
+
+								<div class="good-thumb">
+
+									<div class="good-texture">
+									
+										<img class="texture-photo" src="goods_img/good7.jpg"  alt="Дуб светлый" />
+
+										<div class="texture-links clearfix">
+
+											<a href="#" class="basket">В корзину</a>
+											<a href="#" class="order">Заказать образец</a>
+
+										</div>
+
+									</div>
+
+									<h3 class="texture-name-en" >Floor Wood</h3>
+									<h3 class="texture-name-ru" >Дуб светлый</h3>
+									<p class="price">9999<span class="price-valute">руб</span></p>
+
+								</div>
+
+
+								<div class="good-thumb">
+
+									<div class="good-texture">
+									
+										<img class="texture-photo" src="goods_img/good8.jpg"  alt="Дуб светлый" />
+
+										<div class="texture-links clearfix">
+
+											<a href="#" class="basket">В корзину</a>
+											<a href="#" class="order">Заказать образец</a>
+
+										</div>
+
+									</div>
+
+									<h3 class="texture-name-en" >Floor Wood</h3>
+									<h3 class="texture-name-ru" >Дуб светлый</h3>
+									<p class="price">9999<span class="price-valute">руб</span></p>
+
+								</div>
+
+								<div class="good-thumb">
+
+									<div class="good-texture">
+									
+										<img class="texture-photo" src="goods_img/good1.jpg"  alt="Дуб светлый" />
+
+										<div class="texture-links clearfix">
+
+											<a href="#" class="basket">В корзину</a>
+											<a href="#" class="order">Заказать образец</a>
+
+										</div>
+
+									</div>
+
+									<h3 class="texture-name-en" >Floor Wood</h3>
+									<h3 class="texture-name-ru" >Дуб светлый</h3>
+									<p class="price">9999<span class="price-valute">руб</span></p>
+
+								</div>
+
+
+								<div class="good-thumb">
+
+									<div class="good-texture">
+									
+										<img class="texture-photo" src="goods_img/good2.jpg"  alt="Дуб светлый" />
+
+										<div class="texture-links clearfix">
+
+											<a href="#" class="basket">В корзину</a>
+											<a href="#" class="order">Заказать образец</a>
+
+										</div>
+
+									</div>
+
+									<h3 class="texture-name-en" >Floor Wood</h3>
+									<h3 class="texture-name-ru" >Дуб светлый</h3>
+									<p class="price">9999<span class="price-valute">руб</span></p>
+
+								</div>
+
+
+								<div class="good-thumb">
+
+									<div class="good-texture">
+									
+										<img class="texture-photo" src="goods_img/good3.jpg"  alt="Дуб светлый" />
+
+										<div class="texture-links clearfix">
+
+											<a href="#" class="basket">В корзину</a>
+											<a href="#" class="order">Заказать образец</a>
+
+										</div>
+
+									</div>
+
+									<h3 class="texture-name-en" >Floor Wood</h3>
+									<h3 class="texture-name-ru" >Дуб светлый</h3>
+									<p class="price">9999<span class="price-valute">руб</span></p>
+
+								</div>
+
+
+								<div class="good-thumb">
+
+									<div class="good-texture">
+									
+										<img class="texture-photo" src="goods_img/good4.jpg"  alt="Дуб светлый" />
+
+										<div class="texture-links clearfix">
+
+											<a href="#" class="basket">В корзину</a>
+											<a href="#" class="order">Заказать образец</a>
+
+										</div>
+
+									</div>
+
+									<h3 class="texture-name-en" >Floor Wood</h3>
+									<h3 class="texture-name-ru" >Дуб светлый</h3>
+									<p class="price">9999<span class="price-valute">руб</span></p>
+
+								</div>
+
+
+								<div class="good-thumb">
+
+									<div class="good-texture">
+									
+										<img class="texture-photo" src="goods_img/good5.jpg"  alt="Дуб светлый" />
+
+										<div class="texture-links clearfix">
+
+											<a href="#" class="basket">В корзину</a>
+											<a href="#" class="order">Заказать образец</a>
+
+										</div>
+
+									</div>
+
+									<h3 class="texture-name-en" >Floor Wood</h3>
+									<h3 class="texture-name-ru" >Дуб светлый</h3>
+									<p class="price">9999<span class="price-valute">руб</span></p>
+
+								</div>
+
+
+								<div class="good-thumb">
+
+									<div class="good-texture">
+									
+										<img class="texture-photo" src="goods_img/good6.jpg"  alt="Дуб светлый" />
+
+										<div class="texture-links clearfix">
+
+											<a href="#" class="basket">В корзину</a>
+											<a href="#" class="order">Заказать образец</a>
+
+										</div>
+
+									</div>
+
+									<h3 class="texture-name-en" >Floor Wood</h3>
+									<h3 class="texture-name-ru" >Дуб светлый</h3>
+									<p class="price">9999<span class="price-valute">руб</span></p>
+
+								</div>
+
+
+								<div class="good-thumb">
+
+									<div class="good-texture">
+									
+										<img class="texture-photo" src="goods_img/good7.jpg"  alt="Дуб светлый" />
+
+										<div class="texture-links clearfix">
+
+											<a href="#" class="basket">В корзину</a>
+											<a href="#" class="order">Заказать образец</a>
+
+										</div>
+
+									</div>
+
+									<h3 class="texture-name-en" >Floor Wood</h3>
+									<h3 class="texture-name-ru" >Дуб светлый</h3>
+									<p class="price">9999<span class="price-valute">руб</span></p>
+
+								</div>
+
+
+								<div class="good-thumb">
+
+									<div class="good-texture">
+									
+										<img class="texture-photo" src="goods_img/good8.jpg"  alt="Дуб светлый" />
+
+										<div class="texture-links clearfix">
+
+											<a href="#" class="basket">В корзину</a>
+											<a href="#" class="order">Заказать образец</a>
+
+										</div>
+
+									</div>
+
+									<h3 class="texture-name-en" >Floor Wood</h3>
+									<h3 class="texture-name-ru" >Дуб светлый</h3>
+									<p class="price">9999<span class="price-valute">руб</span></p>
+
+								</div>
+
+
+
+								<!-- Форма заказа образца -->
+
+											<div class="formmodal-sample-catalog">
+												
+												<div class="modal-bg"></div>
+
+												<div class="modal-data">
+
+													<div class="closemodal-btn">X</div>
+													<input class="name" type="text" placeholder="Ваше Имя" />
+													<input class="tel" type="text" placeholder="Ваш телефон" />
+													<input type="submit" class="modal-btn" value="Отправить">
+
+												</div>
+
+											</div>
+
+
+								<!-- Форма заказа образца -->
+
+
+
+							</div>
+
+							<ul class="pagination">
+
+								<li><a href="#"></a></li>
+								<li><a href="#"></a></li>
+								<li><a href="#"></a></li>
+								<li><a href="#"></a></li>
+								<li><a href="#"></a></li>
+								<li><a href="#"></a></li>
+								<li><a href="#"></a></li>
+								<li><a href="#"></a></li>
+								<li><a href="#"></a></li>
+								<li><a class="active" href="#"></a></li>
+								<li><a href="#"></a></li>
+								<li><a href="#"></a></li>
+								<li><a href="#"></a></li>
+								<li><a href="#"></a></li>
+								<li><a href="#"></a></li>
+								<li><a href="#"></a></li>
+								<li><a href="#"></a></li>
+								<li><a href="#"></a></li>
+								<li><a href="#"></a></li>
+								<li><a href="#"></a></li>
+								<li><a href="#"></a></li>
+								<li><a href="#"></a></li>
+
+							</ul>
+
+						</div>
+
+					</div>
+
+				</section>
+
+
+			</div>
+		<!-- /Content -->
+
+
+		<!-- Footer -->
+
+			<footer>
+
+		
+	
+			</footer>
+
+		<!-- /Footer -->
+
+
+
+	<script src="js/scripts.js"></script>
+
+	<script src="js/showcriteries.js"></script>
+
+	<script src="slider_good/goodslider.js"></script>
+
+	<script src="tabs/tabs.js"></script>
+
+	<script src="accordeon/accordeon.js"></script>
+
+	<script src="js/modal.js"></script>
+
+	<!-- JavaScript код  навигационного меню -->
+
+	<script src="main_navigation/main_navigation.js"></script>
+
+
+	</div>
+
+</body>
+</html>

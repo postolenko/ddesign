@@ -1,0 +1,417 @@
+@media only screen and (max-width: 940px) {
+
+	.row {
+	    padding: 0 1%;
+	}
+
+}
+
+
+@media only screen and (max-width: 768px) {
+
+/*-------------------------------------------*/
+/* ----- HEADER ------ */
+/*-------------------------------------------*/
+
+	.head-logo-img {
+	    width: auto;
+	    height: 50px;
+	}
+
+	.scroll-header-bg {
+	    background: rgba(255, 255, 255, 1);
+	}
+
+	.head-tel-col {
+	    width: 68%;
+	}
+
+	.header-right-col {
+	    display: none;
+	}
+
+	.head-tel-box {
+	    width: 100%;
+	    text-align: right;
+	}
+
+	.head-tel-link {
+		width: 100%;
+	    font-size: 17px;
+	    line-height: 28px;
+	}
+
+	.scroll-header-bg  .head-tel-box {
+	    width: 100%;
+	    text-align: right;
+	}
+
+	.scroll-header-bg .head-tel-link {
+		font-size: 17px;
+	}
+
+	.header-contact-bg {
+	    padding: 3px 0;
+	    display: none;
+	}
+
+	.header-bg {
+	    padding: 2px 0;
+	}
+
+	.responsive-nav {
+		display: block;
+		height: 100vh;
+		width: 150%;
+		margin: 0 0 0 -25%;
+		position: fixed;
+		top: -130%;
+		left: 0;		
+		background: rgba(32, 32, 26, .85);
+		overflow-y: scroll; 
+	}
+
+	.responsive-nav.show-main-nav {
+		top: 0%;
+	}
+
+	.main-nav-box {
+	    background-color: rgb(233, 233, 233);
+	    background-image: url(img/header_nav_bg.jpg);
+	    background-repeat: repeat;
+	}
+
+	.main-nav-btn,
+	.top-main-nav-btn {
+		display: block;
+	}
+
+	.header-navigation {
+	    background: none;
+	    padding: 30px 0;
+	}
+
+	.nav-item {
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+
+	.nav-link,
+	.scroll-header-bg .nav-link {
+		display: block;
+		width: 100%;
+		color: #ffffff;
+		font-size: 18px;
+	    padding: 8px 10px;
+	}
+
+	.nav-link:link,
+	.nav-link:visited {
+		color: #ffffff;
+	}
+
+/*-------------------------------------------*/
+/* ----- CONTENT ------ */
+/*-------------------------------------------*/
+
+/*-- Главная страница --*/
+
+.category-thumbs {
+    width: 50%;
+}
+
+
+/*-- /Главная страница --*/
+
+/*-- Ремонт Компьютеров --*/
+
+	.vk-vidget,
+	.baner-box {
+		padding: 20px 0;
+		border: none;
+	}
+
+	.vk-vidget .vk-vidget-img {
+		max-width: 300px;
+		margin: 0 auto;
+	}
+
+
+/*-- /Ремонт Компьютеров --*/
+
+
+/*-------------------------------------------*/
+/* ----- FOOTER ------ */
+/*-------------------------------------------*/
+
+	.footer-col {
+		width: 60%;
+		margin: 10px 0;
+	}
+
+	.footer-logo {
+		width: 40%;
+	}
+
+	.footer-logo-img {
+		width: 95%;
+		height: auto;
+	}
+
+	.corp {
+	    font-size: 16px;
+	}
+
+	.footer-nav {
+		display: none;
+	}
+
+	.footer-col .footer-col-right {
+		float: right;
+		min-width: 260px;
+	}
+
+	.footer-right-col-row .adress,
+	.footer-right-col-row .work-time {
+	    font-size: 16px;
+	    line-height: 24px;
+	    margin: 7px 0;
+	}
+
+	.footer-right-col-row .drive-cart {
+	    font-size: 16px;
+	    line-height: 24px;
+	    margin: 15px 0;
+	}
+
+	.footer-tel-box {
+		padding: 10px 0 0 0;
+	}
+
+	.footer-tel {
+		margin: 10px 0;
+	}
+
+	.footer-tel-link {
+		font-size: 22px;
+    	line-height: 26px;
+	}
+
+
+}
+
+
+@media only screen and (max-width: 480px) {
+
+	h2 {
+	    margin: 45px 0 30px 0;
+	}
+
+
+	/*-- Главная страница --*/
+
+	.category-thumbs {
+		display: block;
+	    width: 98%;
+	    margin: 0 auto;
+	}
+
+	.banner-main-page {
+		width: 100%;
+	}
+
+	.vk-vidget-main-page {
+		display: none;
+	}
+
+	.testimonials-main-page .testimonials-main .testimonial {
+		display: block;
+		width: 100%;
+		margin: 20px 0;
+	}
+
+	.advantage-thumb {
+		display: block;
+		width: 100%;
+		margin: 20px 0;
+
+	}
+
+	/*-- /Главная страница --*/
+
+	/*-- Ремонт компьютеров --*/
+
+	.table-price-h {
+		padding-right: 5px;
+	}
+
+	.service-name-col {
+		font-size: 13px;
+	}
+
+	.resp-table {
+		max-width: 100%;
+		overflow-x: hidden;
+	}
+
+	.dimension {
+		display: block;
+	}
+
+	.answ-quest-table {
+	    margin: 0 -90%;
+    	width: 190%;
+	
+	    -webkit-transition-property: margin;
+	    -webkit-transition-duration: 0.3s;
+	    -webkit-transition-timing-function: ease;
+
+	    -moz-transition-property: margin;
+	    -moz-transition-duration: 0.3s;
+	    -moz-transition-timing-function: ease;
+
+	    -ms-transition-property: margin;
+	    -ms-transition-duration: 0.3s;
+	    -ms-transition-timing-function: ease;
+
+	    -o-transition-property: margin;
+	    -o-transition-duration: 0.3s;
+	    -o-transition-timing-function: ease;
+
+	    transition-property: margin;
+	    transition-duration: 0.3s;
+	    transition-timing-function: ease;
+	}
+
+	.answ-quest-table.show-menu {
+		margin: 0 0 0 -20px;
+	}
+
+	.questions-cell {
+	    width: 48%;
+	}
+
+	.answers-box {
+	    padding: 10px 10px 10px 15px;
+	}
+
+	.testimonials-col {
+		width: 100%;
+	}
+
+	.all-testimonials-right-col {
+		width: 100%;
+		padding: 0;
+	}
+
+
+	/*-- /Ремонт компьютеров --*/
+
+
+
+	/*-- Все отзывы --*/
+
+	.testimonials-col {
+		margin: 0 0 30px 0;
+	}
+
+	.baner-box {
+		display: none;
+	}
+
+	.baner-box.for-480 {
+	    display: block;
+	}
+
+
+	/*-- /Все отзывы --*/
+
+
+
+	/*-- Оставить отзыв --*/
+
+	.form-box .name,
+	.form-box .surname,
+	.form-box .testimonial-area,
+	.form-box .captcha-code {
+		width: 98%;
+		margin: 5px auto;
+		font-size: 18px;
+    	line-height: 33px;
+	}
+
+	.radio-boxes h3 {
+	    font-size: 20px;
+	    line-height: 30px;
+	}
+
+	.radio {
+		margin: 0;
+	}
+
+	.radio label {
+	    font-size: 16px;
+	    margin: 0 22px 0 10px;
+	}
+
+	.captcha {
+	    width: 73%;
+	}
+
+	/*-- /Оставить отзыв --*/
+
+
+/*-------------------------------------------*/
+/* ----- FOOTER ------ */
+/*-------------------------------------------*/
+
+	.footer-col {
+	    float: none;
+	    min-width: 100%;
+	    margin: 20px 0;
+	}
+
+	.footer-contacts {
+		width: 100%;
+		text-align: center;
+	}
+
+	.footer-contacts .hours,
+	.footer-contacts .minutes {
+		font-size: 24px;
+	}
+
+	.footer-col .footer-col-right {
+	    float: none;
+	    min-width: 100%;
+	}
+
+	.footer-logo {
+		display: none;
+	}
+
+	.footer-right-col-row .adress,
+	.footer-right-col-row .work-time,
+	.footer-right-col-row .drive-cart {
+	    font-size: 17px;
+	    line-height: 36px;
+	}
+
+	.footer-tel-link {
+	    font-size: 26px;
+	    line-height: 32px;
+	}
+
+	.footer-logo-480 {
+		display: block;
+		text-align: center;
+	}
+
+	.footer-logo-480 .footer-logo-img {
+		max-width: 300px;
+	}
+
+
+}
+

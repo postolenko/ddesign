@@ -1,0 +1,290 @@
+@media only screen and (max-width: 940px) {
+
+	.row {
+		padding: 0 1%;
+	}
+
+}
+
+
+@media only screen and (max-width: 768px) {
+
+	h1 {
+	    font-size: 50px;
+	    line-height: 60px;
+	}
+
+	.main-navigation-list {
+		position: fixed;
+		top: -150%;
+		left: 0;
+		width: 100%;
+		overflow: hidden;
+	
+	    -webkit-transition-property: top;
+	    -webkit-transition-duration: 0.6s;
+	    -webkit-transition-timing-function: ease;
+
+	    -moz-transition-property: top;
+	    -moz-transition-duration: 0.6s;
+	    -moz-transition-timing-function: ease;
+
+	    -ms-transition-property: top;
+	    -ms-transition-duration: 0.6s;
+	    -ms-transition-timing-function: ease;
+
+	    -o-transition-property: top;
+	    -o-transition-duration: 0.6s;
+	    -o-transition-timing-function: ease;
+
+	    transition-property: top;
+	    transition-duration: 0.6s;
+	    transition-timing-function: ease;
+	}
+
+	.header-contacts {
+		display: inline-block;
+		vertical-align: middle;
+		width: 80%;
+		text-align: right;
+	}
+
+	.header-contact {
+	    margin: 0 0 0 10%;
+	}
+
+	.main-navigation {
+		background-color: rgba(0, 0, 0, .7);
+		width: 150%;
+		height: 100vh;
+		margin: 0 0 0 -25%;
+		padding: 50px 0 0 0;
+		overflow-y: scroll; 
+	}
+
+	.respnavtopcoor {
+		top: 0;
+	}
+
+	.respmenubtn-box {
+	    display: inline-block;
+	    vertical-align: middle;
+	    width: 19%;
+	    padding: 0 0 0 2%;
+	}
+
+	.main-menu-btn {
+	    display: inline-block;
+	    vertical-align: middle;
+	    margin: 0 0 0 2%;
+	}
+
+	.main-navigation .nav-item {
+		width: 100%;
+	}
+
+	.nav-link {
+	    font-size: 18px;
+	    line-height: 20px;
+	}
+
+	.screen-one {
+	    padding: 50px 0;
+	    min-height: auto;
+	}
+
+	.main-head .make-order-btn {
+	    width: 40%;
+	    /*padding: 3.5% 3%;*/
+/*	    padding: 7px 5px;*/
+	}
+
+/*	.screen-one button {
+		width: 50%;
+	}*/
+
+
+	.screen-two .thumbnail-box {
+		width: 50%;
+	}
+
+	.screen-two .thumbnails {
+		text-align: center;
+		padding: 25px 0;
+	}
+
+
+	.screen-three .thubnails .thumbnail {
+		width: 50%;
+	}
+
+
+	.screen-four .thumbnail-testimonial {
+		/*width: 50%;*/
+	}
+
+
+
+
+	.form-box {
+		width: 80%;
+	}
+
+	.submit-btn {
+	    width: 60%;
+	    float: none;
+	    margin: 15px auto 0 auto;
+	}
+
+	#sendsuccess .send-did {
+		width: 60%;
+	}
+
+
+	.footer-bg .main-navigation-list {
+		width: 100%;
+	}
+
+	.footer-bg .main-navigation-list .footer-menu {
+		width: 100%;
+	}
+
+
+	.footer-col {
+	    width: 100%;
+	    text-align: center;
+	}
+
+	.payment {
+		display: none;
+	}
+
+	.footer-col li a {
+		font-size: 18px;
+	    line-height: 40px;
+	}
+
+	.footer-col li .contact-icon,
+	.footer-col li .contact-link {
+	    width: auto;
+	}
+
+
+	.footer-col .make-order-btn {
+	    width: 70%;
+	    float: none;
+	    margin: 15px auto 0 auto;
+	    /*padding: 2.5% 3%;*/
+	    /*padding: 12px 5px;*/
+	}
+
+
+}
+
+
+@media only screen and (max-width: 480px) {
+
+/*	.screen-one button {
+		width: 95%;
+	}*/
+
+	.main-head .make-order-btn {
+	    width: 95%;
+	    /*padding: 3.5% 3%;*/
+	    /*padding: 12px 5px;*/
+	}
+
+	.screen-two .thumbnail-box {
+	    width: 95%;
+	}
+
+	.price-description {
+	    font-size: 22px;
+	    line-height: 32px;
+	}
+
+	.screen-three {
+		padding: 50px 0 30px 0;
+	}
+
+	.screen-three .thubnails .thumbnail {
+		width: 95%;
+	}
+
+	.mask-thumbnail h3 {
+	    font-size: 20px;
+	}
+
+	.testimonial-box {
+		padding: 0;
+	}
+
+	.screen-four .thumbnail-testimonial {
+	    /*width: 95%;*/
+	}
+
+	.testimonials-box {
+		padding: 0;
+	}
+
+	.thumbnail-testimonial {
+	    font-size: 18px;
+	    line-height: 23px;
+	}
+
+	.thumbnail-testimonial:before {
+		display: block;
+	    margin: 10px 0;
+	}
+
+
+	.frameworks-modal {
+	    width: 100%;
+	    height: 90%;
+	}
+
+
+
+	.form-box {
+		width: 97%;
+	}
+
+	.chose_file {
+		font-size: 25px;
+	}
+
+	#sendsuccess .send-did {
+		width: 98%;
+	}
+
+	.submit-btn {
+	    width: 98%;
+	}
+
+	.footer-menu li {
+	    padding: 3%;
+	}
+
+	.footer-cols-box {
+	    padding: 20px 0 10px 0;
+	}
+
+	.footer-col button {
+		width: 100%;
+		font-size: 21px;
+		font-size: 22px;
+	}
+
+	.footer-col .make-order-btn {
+	    width: 100%;
+	    /*padding: 2.5% 3%;*/
+	    /*padding: 12px 5px;*/
+	}
+
+}
+
+/*@media only screen and (max-width: 320px) {
+
+
+
+}*/
