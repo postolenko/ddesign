@@ -93,8 +93,12 @@
 	    min-height: auto;
 	}
 
+	.main-head {
+	    padding: 86px 0 65px 0;
+	}
+
 	.main-head .make-order-btn {
-	    width: 40%;
+	    width: 60%;
 	    /*padding: 3.5% 3%;*/
 /*	    padding: 7px 5px;*/
 	}
@@ -102,6 +106,11 @@
 /*	.screen-one button {
 		width: 50%;
 	}*/
+
+
+	.promo-col {
+		width: 100%;
+	}
 
 
 	.screen-two .thumbnail-box {

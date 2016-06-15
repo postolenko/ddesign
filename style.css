@@ -137,7 +137,8 @@ h1 {
     width: 100%;
     text-align: center;
     font-family: "Open Sans", Arial, Verdana, sans-serif;
-    color: #ffffff;
+    /*color: #ffffff;*/
+    color: #3d3d3d;
     font-size: 66px;
     line-height: 70px;
     font-weight: 400;
@@ -393,7 +394,7 @@ select::-ms-expand {
 
 .nav-link:hover,
 .nav-link:active {
-    background-color: rgba(144, 158, 251, .8);
+    background: rgba(144, 158, 251, .8);
     color: #ffffff;
 }
 
@@ -465,23 +466,30 @@ select::-ms-expand {
 /* ----- Promo block ------ */
 
 .screen-one {
-    display: table;
     width: 100%;
     min-height: 100vh;
     /*padding: 130px 0;*/
-    background-color: #dfdfdf;
+    /*background-color: #FCFDFF;*/
+    /*background: rgba(220, 222, 232, 0.8);*/
     background-image: url(img/htmlcode.jpg);
     background-size: cover;
     background-position: center;
-    position: relative;
 }
 
 .main-head {
     width: 100%;
     min-height: 100vh;
-    background: rgba(0, 0, 0, .9);
-    padding: 170px 0;
+    /*background: rgba(0, 0, 0, .4);*/
+    background: rgba(252, 253, 255, .9);
+    position: relative;
+    /*padding: 210px 0 170px 0;*/
+    padding: 210px 0 65px 0;
+    text-align: center;
 }
+
+/*.promo-head {
+    text-align: center;
+}*/
 
 .logo-screen-one {
     width: 200px;
@@ -490,18 +498,20 @@ select::-ms-expand {
 
 .main-head .make-order-btn {
     display: block;
-    width: 30%;
-    margin: 0 auto;
+    width: 40%;
+    margin: 5% auto;
     padding: 12px 5px;
-    background: rgba(242, 242, 242, 1);
+    /*background: rgba(242, 242, 242, 1);*/
+    /*background: rgba(144, 158, 251, .8);*/
+    background-color: rgba(144, 158, 251, .9);
     text-align: center;
     font-family: "Open Sans", Arial, Verdana, sans-serif;
-    color: #333333;
+    color: #ffffff;
     font-size: 24px;
     line-height: 28px;
     font-weight: 400;
     text-transform: uppercase;
-    border: 1px solid #0F0F0F;
+    border: 1px solid #A8C6F9;
     -webkit-border-radius: 7px;
     -moz-border-radius: 7px;
     -o-border-radius: 7px;
@@ -531,18 +541,110 @@ select::-ms-expand {
 
 .main-head .make-order-btn:link,
 .main-head .make-order-btn:visited {
-    background: rgba(242, 242, 242, 1);
-    color: #333333;
+    /*background: rgba(242, 242, 242, 1);*/
+    background-color: rgba(144, 158, 251, .7);
+    /*background: rgba(144, 158, 251, .8);*/
+    color: #ffffff;
 }
 
 .main-head .make-order-btn:hover,
 .main-head .make-order-btn:active {
-    background-color: rgba(144, 158, 251, .7);
+    
+    background: rgba(144, 158, 251, .8);
     border: 1px solid #97A4FB;
     color: #ffffff;
 }
 
 
+/*.main-head .make-order-btn {
+    display: block;
+    width: 40%;
+    margin: 1% auto;
+    padding: 7px 5px;
+    color: #736505;
+    border: 1px solid #848282;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    font-family: "Open Sans", Arial, Verdana, sans-serif;
+    font-size: 22px;
+    line-height: 35px;
+    font-weight: 400;
+    text-transform: uppercase;
+
+    background: rgb(255,255,255);
+    background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(255,255,255,1) 55%, rgba(247,247,247,1) 70%, rgba(226,226,226,1) 83%, rgba(109,109,109,1) 100%);
+    background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 55%,rgba(247,247,247,1) 70%,rgba(226,226,226,1) 83%,rgba(109,109,109,1) 100%);
+    background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 55%,rgba(247,247,247,1) 70%,rgba(226,226,226,1) 83%,rgba(109,109,109,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#6d6d6d',GradientType=0 );
+
+    -webkit-transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: color;
+    -moz-transition-duration: 0.3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: color;
+    -ms-transition-duration: 0.3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: color;
+    -o-transition-duration: 0.3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: color;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+
+}
+
+.main-head .make-order-btn:link,
+.main-head .make-order-btn:visited {
+    color: #A99509;
+}
+
+.main-head .make-order-btn:hover,
+.main-head .make-order-btn:active {
+    color: #CA520C;
+}*/
+
+
+.promo-cols {
+    width: 100%;
+    font-size: 0;
+    line-height: 0;
+    text-align: left;
+/*    position: absolute;
+    bottom: 1%;*/
+}
+
+.promo-col {
+    display: inline-block;
+    vertical-align: bottom;
+    width: 33.33%;
+    margin: 7% 0;
+    font-family: "Open Sans", Arial, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+}
+
+.promo-col h4 {
+    margin: 3% 0;
+    font-size: 17px;
+}
+
+/*.promo-col ul {
+    margin: 0 0 3% 0;
+}*/
+
+.promo-col li {
+    font-size: 16px;
+    line-height: 24px;
+}
 
 /* ----- Prices ------ */
 
