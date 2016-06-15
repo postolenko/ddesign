@@ -96,7 +96,9 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    background-image: url(img/htmlcode.jpg);
+    /*background-image: url(img/htmlcode.jpg);*/
+    /*background-image: url(img/css.png);*/
+    background-image: url(img/site_bg.jpg);
     background-size: cover;
     background-position: center;
     z-index: -1;
@@ -471,27 +473,43 @@ select::-ms-expand {
     /*padding: 130px 0;*/
     /*background-color: #FCFDFF;*/
     /*background: rgba(220, 222, 232, 0.8);*/
-    background-image: url(img/htmlcode.jpg);
+    /*background-image: url(img/htmlcode.jpg);*/
+    /*background-image: url(img/css.png);*/
+    background-image: url(img/site_bg.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .main-head {
+    float: right;
     width: 100%;
     min-height: 100vh;
     /*background: rgba(0, 0, 0, .4);*/
-    background: rgba(252, 253, 255, .9);
+    background: rgba(252, 253, 255, .7);
     position: relative;
     /*padding: 210px 0 170px 0;*/
-    padding: 210px 0 65px 0;
+    /*padding: 210px 0 65px 0;*/
+    padding: 60px 0 65px 0;
     text-align: center;
+    /*text-align: right;*/
 }
 
 /*.promo-head {
     text-align: center;
 }*/
 
+.fix-bg {
+    display: block;
+    width: 200px;
+    /*width: 100%;*/
+    /*height: auto;*/
+    /*float: left; */
+    margin: 0 auto;
+}
+
 .logo-screen-one {
+    display: inline-block;
+    vertical-align: top;
     width: 200px;
     height: auto;
 }
@@ -500,10 +518,12 @@ select::-ms-expand {
     display: block;
     width: 40%;
     margin: 5% auto;
+    /*float: right;*/
     padding: 12px 5px;
     /*background: rgba(242, 242, 242, 1);*/
-    /*background: rgba(144, 158, 251, .8);*/
-    background-color: rgba(108, 148, 228, .8);
+    background: rgba(144, 158, 251, 1);
+    /*background-color: rgba(108, 148, 228, .8);*/
+    /*background: rgba(144, 158, 251, 1);*/
     text-align: center;
     font-family: "Open Sans", Arial, Verdana, sans-serif;
     color: #ffffff;
@@ -543,15 +563,16 @@ select::-ms-expand {
 .main-head .make-order-btn:visited {
     /*background: rgba(242, 242, 242, 1);*/
     /*background-color: rgba(144, 158, 251, .8);*/
-    background-color: rgba(108, 148, 228, .8);
-    /*background: rgba(144, 158, 251, .8);*/
+    /*background-color: rgba(108, 148, 228, .8);*/
+    background: rgba(144, 158, 251, 1);
+    /*background: rgba(144, 158, 251, 1);*/
     color: #ffffff;
 }
 
 .main-head .make-order-btn:hover,
 .main-head .make-order-btn:active {
-    
-    background: rgba(144, 158, 251, 1);
+    /*background-color: rgba(108, 148, 228, .8);*/
+    background: rgba(144, 158, 251, .9);
     border: 1px solid #97A4FB;
     color: #ffffff;
 }

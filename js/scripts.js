@@ -96,7 +96,7 @@ $(document).ready(function() {
 
     setInterval(function() {
 
-        angel++;
+        angel = angel + 10;
 
         $(".fix-bg").css({"transform": "rotateY("+ angel + "deg)"});
 
@@ -106,7 +106,7 @@ $(document).ready(function() {
 
         }
 
-    },55);
+    },35);
 
     
 
