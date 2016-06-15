@@ -503,7 +503,7 @@ select::-ms-expand {
     padding: 12px 5px;
     /*background: rgba(242, 242, 242, 1);*/
     /*background: rgba(144, 158, 251, .8);*/
-    background-color: rgba(144, 158, 251, .9);
+    background-color: rgba(108, 148, 228, .8);
     text-align: center;
     font-family: "Open Sans", Arial, Verdana, sans-serif;
     color: #ffffff;
@@ -542,7 +542,8 @@ select::-ms-expand {
 .main-head .make-order-btn:link,
 .main-head .make-order-btn:visited {
     /*background: rgba(242, 242, 242, 1);*/
-    background-color: rgba(144, 158, 251, .7);
+    /*background-color: rgba(144, 158, 251, .8);*/
+    background-color: rgba(108, 148, 228, .8);
     /*background: rgba(144, 158, 251, .8);*/
     color: #ffffff;
 }
@@ -550,7 +551,7 @@ select::-ms-expand {
 .main-head .make-order-btn:hover,
 .main-head .make-order-btn:active {
     
-    background: rgba(144, 158, 251, .8);
+    background: rgba(144, 158, 251, 1);
     border: 1px solid #97A4FB;
     color: #ffffff;
 }
