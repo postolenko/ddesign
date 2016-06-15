@@ -470,7 +470,7 @@ select::-ms-expand {
 .screen-one {
     width: 100%;
     min-height: 100vh;
-    /*padding: 130px 0;*/
+    padding: 130px 0;
     /*background-color: #FCFDFF;*/
     /*background: rgba(220, 222, 232, 0.8);*/
     /*background-image: url(img/htmlcode.jpg);*/
@@ -481,12 +481,12 @@ select::-ms-expand {
 }
 
 .main-head {
-    float: right;
+    /*float: right;*/
     width: 100%;
     min-height: 100vh;
     /*background: rgba(0, 0, 0, .4);*/
     background: rgba(252, 253, 255, .7);
-    position: relative;
+    /*position: relative;*/
     /*padding: 210px 0 170px 0;*/
     /*padding: 210px 0 65px 0;*/
     padding: 60px 0 65px 0;
@@ -505,20 +505,48 @@ select::-ms-expand {
     /*height: auto;*/
     /*float: left; */
     margin: 0 auto;
+    position: relative;
+    transform: rotateY(70deg);
 }
 
 .logo-screen-one {
-    display: inline-block;
-    vertical-align: top;
+    display: block;
     width: 200px;
     height: auto;
+    position: absolute;
+    top: 0;
+}
+
+.logo-screen-one-1 {
+  /*  transform: translateZ(3px);
+    -webkit-transform: translateZ(3px);
+    -o-transform: translateZ(3px);
+    -moz-transform: translateZ(3px);*/
+    left: 2px;
+}
+
+.logo-screen-one-2 {
+/*    transform: translateZ(6px);
+    -webkit-transform: translateZ(6px);
+    -o-transform: translateZ(6px);
+    -moz-transform: translateZ(6px);*/
+    left: 4px;
+}
+
+.logo-screen-one-3 {
+/*    transform: translateZ(9px);
+    -webkit-transform: translateZ(9px);
+    -o-transform: translateZ(9px);
+    -moz-transform: translateZ(9px);*/
+    left: 6px;
 }
 
 .main-head .make-order-btn {
     display: block;
     width: 40%;
     margin: 5% auto;
-    /*float: right;*/
+    padding: 12px 5px;
+    /*float: right;
     padding: 12px 5px;
     /*background: rgba(242, 242, 242, 1);*/
     background: rgba(144, 158, 251, 1);
@@ -531,7 +559,8 @@ select::-ms-expand {
     line-height: 28px;
     font-weight: 400;
     text-transform: uppercase;
-    border: 1px solid #A8C6F9;
+    /*border: 1px solid #A8C6F9;*/
+    border: 1px solid #97A4FB;
     -webkit-border-radius: 7px;
     -moz-border-radius: 7px;
     -o-border-radius: 7px;
@@ -573,7 +602,7 @@ select::-ms-expand {
 .main-head .make-order-btn:active {
     /*background-color: rgba(108, 148, 228, .8);*/
     background: rgba(144, 158, 251, .9);
-    border: 1px solid #97A4FB;
+    /*border: 1px solid #97A4FB;*/
     color: #ffffff;
 }
 

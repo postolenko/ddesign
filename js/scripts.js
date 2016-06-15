@@ -96,15 +96,15 @@ $(document).ready(function() {
 
     setInterval(function() {
 
-        angel = angel + 10;
+        // angel = angel + 10;
 
-        $(".fix-bg").css({"transform": "rotateY("+ angel + "deg)"});
+        // $(".fix-bg").css({"transform": "rotateY("+ angel + "deg)"});
 
-        if(angel >= 360) {
+        // if(angel >= 360) {
 
-            angel = 0;
+        //     angel = 0;
 
-        }
+        // }
 
     },35);
 
