@@ -483,13 +483,13 @@ select::-ms-expand {
 .main-head {
     /*float: right;*/
     width: 100%;
-    min-height: 100vh;
+    /*min-height: 100vh;*/
     /*background: rgba(0, 0, 0, .4);*/
     background: rgba(252, 253, 255, .7);
     /*position: relative;*/
     /*padding: 210px 0 170px 0;*/
     /*padding: 210px 0 65px 0;*/
-    padding: 60px 0 65px 0;
+    padding: 60px 0 0 0;
     text-align: center;
     /*text-align: right;*/
 }
@@ -515,30 +515,6 @@ select::-ms-expand {
     height: auto;
     position: absolute;
     top: 0;
-}
-
-.logo-screen-one-1 {
-  /*  transform: translateZ(3px);
-    -webkit-transform: translateZ(3px);
-    -o-transform: translateZ(3px);
-    -moz-transform: translateZ(3px);*/
-    left: 2px;
-}
-
-.logo-screen-one-2 {
-/*    transform: translateZ(6px);
-    -webkit-transform: translateZ(6px);
-    -o-transform: translateZ(6px);
-    -moz-transform: translateZ(6px);*/
-    left: 4px;
-}
-
-.logo-screen-one-3 {
-/*    transform: translateZ(9px);
-    -webkit-transform: translateZ(9px);
-    -o-transform: translateZ(9px);
-    -moz-transform: translateZ(9px);*/
-    left: 6px;
 }
 
 .main-head .make-order-btn {
@@ -669,7 +645,7 @@ select::-ms-expand {
     font-size: 0;
     line-height: 0;
     text-align: left;
-    padding: 0 3% 0 8%;
+    padding: 0 3%;
 /*    position: absolute;
     bottom: 1%;*/
 }
