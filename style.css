@@ -144,7 +144,7 @@ h1 {
     font-size: 66px;
     line-height: 70px;
     font-weight: 400;
-    margin: 0 0 51px 0;
+    margin: 25px 0 80px 0;
 }
 
 button {
@@ -470,8 +470,8 @@ select::-ms-expand {
 .screen-one {
     width: 100%;
     min-height: 100vh;
-    padding: 130px 0;
-    /*background-color: #FCFDFF;*/
+    padding: 100px 0 0 0;
+    background-color: #FCFDFF;
     /*background: rgba(220, 222, 232, 0.8);*/
     /*background-image: url(img/htmlcode.jpg);*/
     /*background-image: url(img/css.png);*/
@@ -486,10 +486,12 @@ select::-ms-expand {
     /*min-height: 100vh;*/
     /*background: rgba(0, 0, 0, .4);*/
     background: rgba(252, 253, 255, .7);
+    border-top: 4px solid #ffffff;
+    border-bottom: 4px solid #ffffff;
     /*position: relative;*/
     /*padding: 210px 0 170px 0;*/
     /*padding: 210px 0 65px 0;*/
-    padding: 60px 0 0 0;
+    padding: 30px 0;
     text-align: center;
     /*text-align: right;*/
 }
@@ -519,7 +521,7 @@ select::-ms-expand {
 
 .main-head .make-order-btn {
     display: block;
-    width: 40%;
+    width: 30%;
     margin: 5% auto;
     padding: 12px 5px;
     /*float: right;
@@ -645,6 +647,7 @@ select::-ms-expand {
     font-size: 0;
     line-height: 0;
     text-align: left;
+    /*margin: 30px 0;*/
     padding: 0 3%;
 /*    position: absolute;
     bottom: 1%;*/
@@ -827,15 +830,17 @@ select::-ms-expand {
     padding: 60px 0;
     font-size: 0;
     line-height: 0;
-    /*background: rgb(238, 233, 233);*/
-    background: rgba(0, 0, 0, 0.8);
+    /*background: rgba(238, 233, 233, .8);*/
+    /*background: rgba(0, 0, 0, 0.8);*/
+    background: rgba(234, 234, 234, .8);
     -webkit-box-shadow: 0px 0px 3px 0px rgba(50, 50, 50, .6);
     -moz-box-shadow:    0px 0px 3px 0px rgba(50, 50, 50, .6);
     box-shadow:         0px 0px 3px 0px rgba(50, 50, 50, .6);
 }
 
 .screen-three h2 {
-    color: #ffffff;
+    /*color: #ffffff;*/
+    color: #333333;
 }
 
 .screen-three .thubnails {
@@ -982,14 +987,18 @@ select::-ms-expand {
 .thumbnail:hover .mask-thumbnail {
     display: block;
     /*background: rgba(0, 0, 0, .5);*/
-    background-color: rgba(8, 13, 49, .5);
+    /*background: rgba(8, 13, 49, .5);*/
+    /*background: rgba(8, 13, 49, .5);*/
+    background: rgba(144, 158, 251, .6);
 }
 
 .mask-thumbnail h3 {
     opacity: 0;
     width: 100%;
     /*background: rgba(0, 0, 0, .7);*/
-    background: rgba(8, 13, 49, .7);
+    /*background: rgba(8, 13, 49, .7);*/
+    /*background: rgba(144, 158, 251, .9);*/
+    background: rgba(76, 129, 170, .9);
     position: absolute;
     bottom: 0;
     left: 0;
@@ -1058,10 +1067,11 @@ select::-ms-expand {
     position: absolute;
     top: -100%;
     left: 0;
-    background: rgba(8, 13, 49, .7);
+    /*background: rgba(8, 13, 49, .7);*/
+    background: rgba(144, 158, 251, .9);
     color: #ffffff;
     font-family: "Open Sans", Arial, Verdana, sans-serif;
-    font-size: 16px;
+    font-size: 17px;
     line-height: 22px;
     font-weight: 300;
     padding: 10px;
@@ -1090,7 +1100,8 @@ select::-ms-expand {
 
 
 .thumbnail:hover .modal-frame {
-    background-color: rgba(8, 13, 49, .7);
+    /*background-color: rgba(8, 13, 49, .7);*/
+    /*background: rgba(144, 158, 251, .9);*/
     top: 0;
 }
 
