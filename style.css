@@ -443,12 +443,12 @@ select::-ms-expand {
     position: fixed;
     bottom: 3%;
     right: 3%;
-    width: 30px;
-    height: 30px;
+    width: 36px;
+    height: 36px;
     opacity: .9;
-    color: #9a1717;
-    font-size: 30px;
-    line-height: 30px;
+    color: #4C81AA;
+    font-size: 36px;
+    line-height: 36px;
     z-index: 1000;
 }
 
@@ -989,7 +989,8 @@ select::-ms-expand {
     /*background: rgba(0, 0, 0, .5);*/
     /*background: rgba(8, 13, 49, .5);*/
     /*background: rgba(8, 13, 49, .5);*/
-    background: rgba(144, 158, 251, .6);
+    /*background: rgba(144, 158, 251, .6);*/
+    background: rgba(76, 129, 170, .3);
 }
 
 .mask-thumbnail h3 {
