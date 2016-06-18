@@ -13,12 +13,15 @@
 	<meta name="description" content="">
 
 	<link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
 	
 	<link rel="stylesheet" type="text/css" href="style.css">
 
 	<link rel="stylesheet" type="text/css" href="responsive.css">
 
 	<script type="text/javascript" src="vendors/js/jquery.js"></script>
+	<script type="text/javascript" src="vendors/js/wow.min.js"></script>
+	<script>new WOW().init();</script>
 
 <!-- 	<link rel="icon" type="image/png" href="favicon/favicon.ico" sizes="16x16"> -->
 	
@@ -96,7 +99,7 @@
 
 					<!-- <a class="header-contact" href="skype:webdesignsitehtmlcss" ><i class="skype-item"></i></a> -->
 
-					<a class="header-contact" href="skype:webdesignsitehtmlcss" ><img src="img/skype_icon.svg" alt="skype" /></a>
+					<a class="header-contact" href="skype:webdesignsitehtmlcss" ><img src="img/skype_icon2.svg" alt="skype" /></a>
 
 				</div>
 
@@ -129,11 +132,11 @@
 
 								</div> -->
 
-								<div class="promo-head clearfix">
+								<div class="promo-head">
 
 									<!-- <img class="logo-screen-one" src="img/logo_head.png" alt="logo D" /> -->
 
-									<h1>HTML верстка сайтов</h1>
+									<h1 id="mainh" class="fadeInDown wow">HTML верстка сайтов</h1>
 
 									<!-- <button class="make-order-btn">Сделать заказ</button> -->
 									<!-- <a class="make-order-btn" href="#order">Заказать</a> -->
@@ -148,7 +151,7 @@
 
 							<div class="promo-cols">
 
-								<div class="row">
+								<div class="row fadeIn wow">
 
 									<div class="promo-col">
 
@@ -158,7 +161,6 @@
 
 											<li>HTML & CSS</li>
 											<li>JQuery ( JavaScript )</li>
-											<li>CSS3 анимацию</li>
 
 										</ul>
 
@@ -178,13 +180,24 @@
 
 									</div>
 
-									<h4 class="promo-col">Сроки на верстку макетов 3 - 4 дня</h4>
+									<div class="promo-col">
+
+										<ul>
+
+											<li>Сроки на верстку макетов 3 - 4 дня</li>
+											<li>Чужой код не беру</li>
+
+										</ul>
+
+									</div>
+
+									<!-- <h4 class="promo-col">Сроки на верстку макетов 3 - 4 дня</h4> -->
 
 								</div>
 
 							</div>
 
-							<a class="make-order-btn" href="#order">Заказать верстку</a>
+							<a class="make-order-btn fadeInUp wow" href="#order">Заказать верстку</a>
 
 						</div>
 						
@@ -202,11 +215,11 @@
 							
 							<h2 class="head-second">Цены на верстку</h2>
 
-							<p class="price-description">Выполняю только чистую верстку. Под CMS не верстаю.</p>
+							<p class="price-description" id="show-1">Выполняю только чистую верстку. Под CMS не верстаю.</p>
 
 							<div class="thumbnails">
 
-								<div class="thumbnail-box">
+								<div class="thumbnail-box show-price fadeInUp wow">
 
 									<div class="price-thumbnail">										
 										
@@ -223,7 +236,7 @@
 								</div>
 
 
-								<div class="thumbnail-box">
+								<div class="thumbnail-box show-price fadeInUp wow">
 
 									<div class="price-thumbnail">
 										
@@ -260,7 +273,7 @@
 
 							</div>
 
-							<p class="article">Аванс Вы вносите после определенного этапа выполненной работы. Если заказчик хочет внести аванс в начеле разработки проекта я всегда приветсвую. Ваш проект будет на моем хостинге - так вы сможете наблюдать за процессом верстки вашего сайта.</p>
+							<p class="article wow" id="show-2">Аванс Вы вносите после определенного этапа выполненной работы. Если заказчик хочет внести аванс в начеле разработки проекта я всегда приветсвую. Ваш проект будет на моем хостинге - так вы сможете наблюдать за процессом верстки вашего сайта.</p>
 
 						</div>
 
@@ -297,7 +310,8 @@
 
 							<div class="thubnails">
 
-								<div class="thumbnail">
+								<!-- <div class="thumbnail show-work fadeIn animated"> -->
+								<div class="thumbnail fadeIn wow">
 
 									<img class="work-prew" src="img/chclinick.jpg" alt="Верстка сайта " />
 
@@ -313,7 +327,7 @@
 
 								</div>
 
-								<div class="thumbnail">
+								<div class="thumbnail fadeIn wow">
 
 									<img class="work-prew" src="img/bsh.jpg" alt="Верстка сайта фитнес клуба в Сингапуре 'BodyShaping' " />
 
@@ -329,7 +343,7 @@
 
 								</div>
 
-								<div class="thumbnail">
+								<div class="thumbnail fadeIn wow">
 
 									<img class="work-prew" src="img/blikfive.jpg" />
 
@@ -345,7 +359,7 @@
 
 								</div>
 
-								<div class="thumbnail">
+								<div class="thumbnail fadeIn wow">
 
 									<img class="work-prew" src="img/manfred.jpg" />
 
@@ -361,7 +375,7 @@
 
 								</div>
 
-								<div class="thumbnail">
+								<div class="thumbnail fadeIn wow">
 
 									<img class="work-prew" src="img/m2.jpg" />
 
@@ -377,7 +391,7 @@
 
 								</div>
 
-								<div class="thumbnail">
+								<div class="thumbnail fadeIn wow">
 
 									<img class="work-prew" src="img/remontish.jpg" />
 
@@ -393,7 +407,7 @@
 
 								</div>
 
-								<div class="thumbnail">
+								<div class="thumbnail fadeIn wow">
 
 									<img class="work-prew" src="img/quatroinvestment.jpg" />
 
@@ -409,7 +423,7 @@
 
 								</div>
 
-								<div class="thumbnail">
+								<div class="thumbnail fadeIn wow">
 
 									<img class="work-prew" src="img/PartsQ_mobile-version.jpg" />
 
@@ -445,7 +459,7 @@
 
 							<div class="testimonials-box">
 
-								<div class="thumbnail-testimonial">
+								<div class="thumbnail-testimonial fadeIn wow">
 									
 									<p>Денис очень ответственный исполнитель! Верстка сделана в срок, качественно, быстро учтены все правки и замечания. Что еще важно – Денис всегда на связи, поэтому любые возникшие вопросы решаются оперативно.Обязательно обращусь еще;) и всем рекомендую!</p>
 
@@ -508,7 +522,7 @@
 
 					<div class="screen-five ornament" id="order">
 						
-						<div class="row">
+						<div class="row fadeIn wow">
 
 							<h2>Оформить заказ</h2>
 							
@@ -599,16 +613,23 @@
 
 						<div class="footer-cols-box">
 							
-							<ul class="footer-col payment">
-								
-								<!-- <li class=""><a class="">visa</a></li>
-								<li class=""><a class="">mastercard</a></li> -->
-								<li class=""><a class="payment-way"><img src="img/visamastercard.png" alt="Webmoney" /></a></li>
-								<li class=""><a class="payment-way"><img src="img/logo_wm.png" alt="Webmoney" /></a></li>
-							<!-- 	<li class=""><a class="payment-way"><img src="img/yandex_money.svg" alt="Webmoney" /> деньги</a></li> -->
-								<li class=""><a class="payment-way"><img src="img/logo_pr24.png" alt="Приват24" /></a></li>
+							<div class="footer-col">
 
-							</ul>
+								<h4 class="payment-h">Способы оплаты</h4>
+
+								<ul class="payment">
+								
+									<li class="">Visa & Mastercard</li>
+									<li class="">Приват</li>
+									<li class="">QIWI</li>
+									<!-- <li class=""><a class="payment-way"><img src="img/visamastercard.png" alt="Webmoney" /></a></li>
+									<li class=""><a class="payment-way"><img src="img/logo_wm.png" alt="Webmoney" /></a></li> -->
+								<!-- 	<li class=""><a class="payment-way"><img src="img/yandex_money.svg" alt="Webmoney" /> деньги</a></li> -->
+									<!-- <li class=""><a class="payment-way"><img src="img/logo_pr24.png" alt="Приват24" /></a></li> -->
+
+								</ul>
+
+							</div>
 							
 							<ul class="footer-col">
 								

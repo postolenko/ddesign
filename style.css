@@ -141,8 +141,8 @@ h1 {
     font-family: "Open Sans", Arial, Verdana, sans-serif;
     /*color: #ffffff;*/
     color: #333333;
-    font-size: 66px;
-    line-height: 70px;
+    font-size: 74px;
+    line-height: 80px;
     font-weight: 400;
     margin: 25px 0 80px 0;
 }
@@ -486,8 +486,8 @@ select::-ms-expand {
     /*min-height: 100vh;*/
     /*background: rgba(0, 0, 0, .4);*/
     background: rgba(252, 253, 255, .7);
-    border-top: 4px solid #ffffff;
-    border-bottom: 4px solid #ffffff;
+    border-top: 5px solid #ffffff;
+    border-bottom: 5px solid #ffffff;
     /*position: relative;*/
     /*padding: 210px 0 170px 0;*/
     /*padding: 210px 0 65px 0;*/
@@ -497,7 +497,7 @@ select::-ms-expand {
 }
 
 /*.promo-head {
-    text-align: center;
+    position: relative;
 }*/
 
 .fix-bg {
@@ -684,7 +684,12 @@ select::-ms-expand {
 .screen-two {
     padding: 60px 0;
     /*background: rgba(19, 20, 39, 0.97);*/
-    background: rgba(120, 125, 133, 0.9);
+    /*background: rgba(120, 125, 133, 0.9);*/
+    /*background: rgba(123, 157, 182, .9);*/
+    /*background: rgba(180, 200, 225, .9);*/
+    /*background: rgba(220, 222, 232, 0.9);*/
+    /*background: rgba(225, 225, 225, 0.8);*/
+    background: rgba(255, 255, 255, 0.8);
     -webkit-box-shadow: inset 0px 3px 7px 0px rgba(0,0,0, .3);
     -moz-box-shadow:    inset 0px 3px 7px 0px rgba(0,0,0, .3);
     box-shadow:         inset 0px 3px 7px 0px rgba(0,0,0, .3);
@@ -715,15 +720,16 @@ select::-ms-expand {
 }*/
 
 .head-second {
-    /*color: #333333;*/
-    color: #ffffff;
+    color: #333333;
+    /*color: #ffffff;*/
 }
 
 .price-description {
+    /*background: rgba(225, 225, 225, .4);*/
     text-align: center;
-    /*color: #333333;*/
+    color: #333333;
     font-family: "Open Sans", Arial, Verdana, sans-serif;
-    color: #ffffff;
+    /*color: #ffffff;*/
     font-size: 22px;
     line-height: 35px;
     font-weight: 300;
@@ -764,12 +770,12 @@ select::-ms-expand {
     /*color: #ffffff;*/
     color: #333333;
     font-family: "Open Sans", Arial, Verdana, sans-serif;
-    font-size: 22px;
+    font-size: 21px;
     line-height: 32px;
     font-weight: 400;
     text-align: center;
     text-transform: uppercase;
-    background-color: rgba(255, 255, 255, 1);
+    /*background-color: rgba(255, 255, 255, 1);*/
     border-bottom: 1px solid rgb(255, 127, 36);
     -webkit-border-radius: 10px 10px 0 0;
     -moz-border-radius: 10px 10px 0 0;
@@ -813,10 +819,12 @@ select::-ms-expand {
 
 .article{
     text-align: center;
-    /*color: #333333;*/
-    background: rgba(120, 125, 133, .4);
+    color: #333333;
+    /*background: rgba(120, 125, 133, .4);*/
+    /*background: rgba(123, 157, 182, .4);*/
+    background: rgba(255, 255, 255, .3);
     font-family: "Open Sans", Arial, Verdana, sans-serif;
-    color: #ffffff;
+    /*color: #ffffff;*/
     font-size: 22px;
     line-height: 35px;
     font-weight: 300;
@@ -1407,10 +1415,11 @@ input.valid, textarea.valid{
 
 footer {
     /*position: relative;*/
-    /*background: rgba(7, 7, 7, 1);*/
+    background: rgba(255, 255, 255, .8);
     /*background: rgba(20, 20, 23, .95);*/
-    background: rgba(10, 10, 10, 0.95);
-    padding: 40px 0;
+    /*background: rgba(10, 10, 10, 0.95);*/
+    /*padding: 40px 0;*/
+    padding: 10px 0;
     font-size: 0;
     line-height: 0;
     text-align: center;
@@ -1472,7 +1481,8 @@ footer {
 
 .footer-menu li a:link,
 .footer-menu li a:visited {
-    color: #ffffff;
+    /*color: #ffffff;*/
+    color: #333333;
 }
 
 .footer-menu li a:hover,
@@ -1481,7 +1491,8 @@ footer {
 }
 
 .footer-cols-box {
-    padding: 50px 0 10px 0;
+    /*padding: 50px 0 10px 0;*/
+    padding: 20px 0 10px 0;
 }
 
 .footer-col {
@@ -1496,9 +1507,24 @@ footer {
     padding: 10px 0 0 0;
 }
 
+.payment-h {
+    /*color: #ffffff;*/
+    color: #333333;
+    font-family: "Open Sans", Arial, Verdana, sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
 .payment li {
     display: block;
-    height: 55px;
+    /*color: #ffffff;*/
+    color: #333333;
+    font-family: "Open Sans", Arial, Verdana, sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 400;
 }
 
 /*.footer-col li:before {
@@ -1532,9 +1558,9 @@ footer {
 
 .footer-col li a {
     font-family: "Open Sans", Arial, Verdana, sans-serif;
-    color: #DAA520;
+    color: #333333;
     cursor: pointer;
-    font-size: 17px;
+    font-size: 16px;
     line-height: 30px;
     font-weight: 400;
 
@@ -1562,12 +1588,12 @@ footer {
 
 .footer-col li a:link,
 .footer-col li a:visited {
-    color: #DAA520;
+    color: #333333;
 }
 
 .footer-col li a:hover,
 .footer-col li a:active {
-    color: #ffffff;
+    color: #4C81AA;
 }
 
 /*.glyphicon-envelope:before {
@@ -1660,3 +1686,189 @@ footer {
 /*.footer-col .make-order-btn:active {
     border: 1px solid #d3d3d3;
 }*/
+
+
+
+/*--  Animation  --*/
+
+/*h1 {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-family: "Open Sans", Arial, Verdana, sans-serif;
+    color: #333333;
+    font-size: 74px;
+    line-height: 80px;
+    font-weight: 400;
+    margin: 25px 0 80px 0;
+}
+*/
+
+
+
+/*
+#mainh {
+    margin: 0 0 105px 0;
+    opacity: 0;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+}
+
+@keyframes showmainh {
+
+    0% {
+        margin: 0 0 105px 0;
+        opacity: 0;
+        filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+    }
+
+    100% {
+        margin: 25px 0 80px 0;
+        opacity: 1;
+        filter:progid:DXImageTransform.Microsoft.Alpha(opacity=1);
+    }
+
+}
+
+#mainh {
+    animation: showmainh 1.5s both ease;
+    -webkit-animation-delay: .5s;
+    -moz-animation-delay: .5s;
+    -o-animation-delay: .5s;
+    animation-delay: .5s;
+}
+
+
+
+#show-1 {
+    padding: 0 0 63px 0;
+    opacity: 0;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+}
+
+@keyframes show-price-description {
+
+    0% {
+        padding: 0 0 63px 0;
+        opacity: 0;
+        filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+    }
+
+    100% {
+        padding: 23px 0 40px 0;
+        opacity: 1;
+        filter:progid:DXImageTransform.Microsoft.Alpha(opacity=1);
+    }
+
+}
+
+#show-1 {
+    animation: show-price-description 1.5s both ease;
+    -webkit-animation-delay: .5s;
+    -moz-animation-delay: .5s;
+    -o-animation-delay: .5s;
+    animation-delay: .5s;
+}
+
+
+
+#show-2 {
+    padding: 63px 0 0 0;
+    opacity: 0;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+}
+
+@keyframes show-article {
+
+    0% {
+        padding: 63px 0 0 0;
+        opacity: 0;
+        filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+    }
+
+    100% {
+        padding: 23px 0 40px 0;
+        opacity: 1;
+        filter:progid:DXImageTransform.Microsoft.Alpha(opacity=1);
+    }
+
+}
+
+#show-2 {
+    animation: show-article 1.5s both ease;
+    -webkit-animation-delay: .5s;
+    -moz-animation-delay: .5s;
+    -o-animation-delay: .5s;
+    animation-delay: .5s;
+}
+
+.thumbnail {
+    display: inline-block;
+    vertical-align: top;
+    width: 33.33%;
+    height: 330px;
+    overflow: hidden;
+    margin: 3% 0;
+    padding: 0% 3%;
+    position: relative;
+}
+
+
+.show-work {
+    margin: 6% 0 0 0;
+    opacity: 0;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+}
+
+@keyframes show-thumbnail {
+
+    0% {
+        margin: 6% 0 0 0;
+        opacity: 0;
+        filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+    }
+
+    100% {
+        margin: 3% 0;
+        opacity: 1;
+        filter:progid:DXImageTransform.Microsoft.Alpha(opacity=1);
+    }
+
+}
+
+.show-work {
+    animation: show-thumbnail 1.5s both ease;
+    -webkit-animation-delay: .5s;
+    -moz-animation-delay: .5s;
+    -o-animation-delay: .5s;
+    animation-delay: .5s;
+}
+
+
+
+.show-testimonial {
+    opacity: .1;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=.1);
+}
+
+@keyframes show-thumbnail {
+
+    0% {
+        opacity: 0;
+        filter:progid:DXImageTransform.Microsoft.Alpha(opacity=.1);
+    }
+
+    100% {
+        opacity: 1;
+        filter:progid:DXImageTransform.Microsoft.Alpha(opacity=1);
+    }
+
+}
+
+.show-testimonial {
+    animation: show-thumbnail 1.5s both ease;
+    -webkit-animation-delay: .5s;
+    -moz-animation-delay: .5s;
+    -o-animation-delay: .5s;
+    animation-delay: .5s;
+}
+*/
