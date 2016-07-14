@@ -415,6 +415,10 @@ select::-ms-expand {
     z-index: 999;
 }
 
+.skype-icon path {
+    fill: #ffffff !important;
+}
+
 .respmenubtn-box {
     display: none;
     width: 20%;
